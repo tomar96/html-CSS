@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    padding: 5px;
+}
+nav a {
+    text-decoration: none;
+    margin: 55px;
+    padding: 5px;
+    
+}
+header{
+    background-color: lightgreen;
+    height: 30px;
+}
+#div{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 2px;
+    display: inline-block;
+}
+#box2{
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+}
+#container{
+    border: 3px solid darkgreen;
+    margin: 5px;
+}
+#box4{
+    position: fixed;
+    right: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: lightgreen;
+    text-align: center;
+    width: 100%;
+}
